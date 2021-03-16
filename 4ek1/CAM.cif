@@ -1,0 +1,195 @@
+# electronic Ligand Builder and Optimisation Workbench (eLBOW)
+#   - a module of PHENIX version 1.19rc3-4024-
+#   - file written: Fri Oct 23 02:41:42 2020
+#
+#   Input file: /home/liuyoujia/phenix-1.19rc3-4024/modules/chem_data/chemical_components/c/data_CAM.cif
+#   Random seed: 3628800
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+CAM        CAM 'Unknown                  ' ligand 27 11 .
+#
+data_comp_CAM
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+CAM         C1     C   CT     0    .      -0.0802    0.4311   -0.8341
+CAM         C2     C   C      0    .       1.3047    0.4311   -0.8341
+CAM         O      O   O      0    .       1.8968    0.0818   -1.7983
+CAM         C3     C   CH2    0    .       1.8832    0.4311    0.3062
+CAM         C4     C   CH1    0    .       0.9066    0.4223    1.3514
+CAM         C5     C   CH2    0    .      -0.0199    1.5071    1.2344
+CAM         C6     C   CH2    0    .      -0.6092    1.5082   -0.0518
+CAM         C7     C   CT     0    .      -0.1368   -0.6738    0.4533
+CAM         C8     C   CH3    0    .       0.5351   -2.0066    0.1274
+CAM         C9     C   CH3    0    .      -1.5313   -0.8090    1.0653
+CAM         C10    C   CH3    0    .      -0.9934   -0.0502   -2.4713
+CAM         H31    H   HCH2   0    .       2.5086   -0.4494    0.3916
+CAM         H32    H   HCH2   0    .       2.4981    1.3183    0.3968
+CAM         H4     H   HCH1   0    .       1.1980    0.0845    2.3386
+CAM         H51    H   HCH2   0    .       0.5023    2.4433    1.3904
+CAM         H52    H   HCH2   0    .      -0.7947    1.3995    1.9838
+CAM         H61    H   HCH2   0    .      -0.3946    2.4489   -0.5444
+CAM         H62    H   HCH2   0    .      -1.6817    1.3895    0.0442
+CAM         H81    H   HCH3   0    .       1.2099   -1.8757   -0.7099
+CAM         H82    H   HCH3   0    .      -0.2209   -2.7389   -0.1291
+CAM         H83    H   HCH3   0    .       1.0927   -2.3504    0.9902
+CAM         H91    H   HCH3   0    .      -1.5388   -0.3577    2.0502
+CAM         H92    H   HCH3   0    .      -1.7897   -1.8578    1.1468
+CAM         H93    H   HCH3   0    .      -2.2536   -0.3072    0.4328
+CAM        H101    H   HCH3   0    .      -0.5513   -0.9507   -2.8801
+CAM        H102    H   HCH3   0    .      -0.8984    0.7564   -3.1883
+CAM        H103    H   HCH3   0    .      -2.0417   -0.2255   -2.2620
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+_chem_comp_bond.value_dist_neutron
+CAM   C1      C2    single        1.385 0.020     1.385
+CAM   C1      C6    single        1.432 0.020     1.432
+CAM   C1      C7    single        1.697 0.020     1.697
+CAM   C1      C10   single        1.935 0.020     1.935
+CAM   C2      O     double        1.184 0.020     1.184
+CAM   C2      C3    single        1.279 0.020     1.279
+CAM   C3      C4    single        1.430 0.020     1.430
+CAM   C3      H31   single        0.970 0.020     1.090
+CAM   C3      H32   single        0.970 0.020     1.090
+CAM   C4      C5    single        1.431 0.020     1.431
+CAM   C4      C7    single        1.760 0.020     1.760
+CAM   C4      H4    single        0.970 0.020     1.090
+CAM   C5      C6    single        1.415 0.020     1.415
+CAM   C5      H51   single        0.970 0.020     1.090
+CAM   C5      H52   single        0.970 0.020     1.090
+CAM   C6      H61   single        0.970 0.020     1.090
+CAM   C6      H62   single        0.970 0.020     1.090
+CAM   C7      C8    single        1.528 0.020     1.528
+CAM   C7      C9    single        1.529 0.020     1.529
+CAM   C8      H81   single        0.970 0.020     1.090
+CAM   C8      H82   single        0.970 0.020     1.090
+CAM   C8      H83   single        0.970 0.020     1.090
+CAM   C9      H91   single        0.970 0.020     1.090
+CAM   C9      H92   single        0.970 0.020     1.090
+CAM   C9      H93   single        0.970 0.020     1.090
+CAM   C10    H101   single        0.970 0.020     1.090
+CAM   C10    H102   single        0.970 0.020     1.090
+CAM   C10    H103   single        0.970 0.020     1.090
+#
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+CAM   C10     C1      C7          117.64 3.000
+CAM   C10     C1      C6          118.34 3.000
+CAM   C7      C1      C6           93.61 3.000
+CAM   C10     C1      C2          118.15 3.000
+CAM   C7      C1      C2           91.91 3.000
+CAM   C6      C1      C2          111.67 3.000
+CAM   C3      C2      O           120.00 3.000
+CAM   C3      C2      C1          116.90 3.000
+CAM   O       C2      C1          120.00 3.000
+CAM   H32     C3      H31         109.35 3.000
+CAM   H32     C3      C4          109.35 3.000
+CAM   H31     C3      C4          109.36 3.000
+CAM   H32     C3      C2          109.35 3.000
+CAM   H31     C3      C2          109.36 3.000
+CAM   C4      C3      C2          110.04 3.000
+CAM   H4      C4      C7          115.49 3.000
+CAM   H4      C4      C5          119.00 3.000
+CAM   C7      C4      C5           92.66 3.000
+CAM   H4      C4      C3          118.96 3.000
+CAM   C7      C4      C3           92.05 3.000
+CAM   C5      C4      C3          112.18 3.000
+CAM   H52     C5      H51         109.33 3.000
+CAM   H52     C5      C6          109.34 3.000
+CAM   H51     C5      C6          109.33 3.000
+CAM   H52     C5      C4          109.34 3.000
+CAM   H51     C5      C4          109.33 3.000
+CAM   C6      C5      C4          110.15 3.000
+CAM   H62     C6      H61         109.36 3.000
+CAM   H62     C6      C5          109.37 3.000
+CAM   H61     C6      C5          109.36 3.000
+CAM   H62     C6      C1          109.37 3.000
+CAM   H61     C6      C1          109.36 3.000
+CAM   C5      C6      C1          110.00 3.000
+CAM   C9      C7      C8          114.17 3.000
+CAM   C9      C7      C4          113.06 3.000
+CAM   C8      C7      C4          113.05 3.000
+CAM   C9      C7      C1          113.05 3.000
+CAM   C8      C7      C1          113.04 3.000
+CAM   C4      C7      C1           87.81 3.000
+CAM   H83     C8      H82         109.47 3.000
+CAM   H83     C8      H81         109.47 3.000
+CAM   H82     C8      H81         109.47 3.000
+CAM   H83     C8      C7          109.47 3.000
+CAM   H82     C8      C7          109.47 3.000
+CAM   H81     C8      C7          109.48 3.000
+CAM   H93     C9      H92         109.47 3.000
+CAM   H93     C9      H91         109.47 3.000
+CAM   H92     C9      H91         109.46 3.000
+CAM   H93     C9      C7          109.48 3.000
+CAM   H92     C9      C7          109.47 3.000
+CAM   H91     C9      C7          109.48 3.000
+CAM  H103     C10    H102         109.47 3.000
+CAM  H103     C10    H101         109.47 3.000
+CAM  H102     C10    H101         109.47 3.000
+CAM  H103     C10     C1          109.47 3.000
+CAM  H102     C10     C1          109.47 3.000
+CAM  H101     C10     C1          109.47 3.000
+#
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+CAM Var_01         C4      C3      C2      C1            0.37  30.0 1
+CAM Var_02         C4      C5      C6      C1           -0.62  30.0 1
+CAM Var_03         H81     C8      C7      C1           19.83  30.0 3
+CAM Var_04         H91     C9      C7      C1         -109.39  30.0 3
+#
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+CAM chir_01   C1      C6      C2      C10   positiv
+CAM chir_02   C4      C3      C5      C7    negativ
+#
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+CAM plan-1     C1 0.020
+CAM plan-1     C2 0.020
+CAM plan-1      O 0.020
+CAM plan-1     C3 0.020
