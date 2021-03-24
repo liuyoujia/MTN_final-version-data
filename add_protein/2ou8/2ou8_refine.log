@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+angles               : True
+bonds                : True
+chirals              : True
+delete_cache         : True
+dihedrals            : True
+exclude_hydrogens    : False
+exclude_non_protein  : False
+exclude_water        : True
+filename             : 2ou8.updated_refine_001.pdb.geo
+ignore_cache         : False
+nonbonds             : False
+only_hydrogens       : False
+only_water           : False
+parallelitys         : False
+planes               : False
+quiet                : False
+use_cache            : True
+--------------------------------------------------------------------------------
+processed bond : 0.1
+processed angle : 0.3
+processed dihedral : 0.3
+LOADED ['chirality', 'angle', 'dihedral', 'bond']
+Time to parse 0.31
+
+RMS results for model
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.009( 2756)   0.008( 2695)   0.033(   61)   0.423( 2756)   0.371( 2695)   1.411(   61)
+  angle      1.027( 4971)   0.925( 4857)   3.083(  114)   0.475( 4971)   0.447( 4857)   1.156(  114)
+  dihedral  10.921( 1070)  10.900( 1064)  14.121(    6)   0.790( 1070)   0.789( 1064)   0.898(    6)
+
+Selecting bonds        Time to select bonds        : 0.02s
+Selecting angles       Time to select angles       : 0.07s
+Selecting dihedrals    Time to select dihedrals    : 0.02s
+
+RMS results for selection
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.008(    6)   0.000(    0)   0.008(    6)   0.412(    6)   0.000(    0)   0.412(    6)
+  angle      2.431(   18)   0.000(    0)   2.431(   18)   0.810(   18)   0.000(    0)   0.810(   18)
+  dihedral   5.353(    4)   0.000(    0)   5.353(    4)   0.089(    4)   0.000(    0)   0.089(    4)
+
+----- bonds ----- bonds ----- bonds ----- bonds ----- bonds ----- bonds 
+   1 " C1 AMTN A 165 " - " N1 AMTN A 165 " [ 1.477, 1.490, -0.013, 2.00e-02, 2.50e+03, 4.37e-01]
+   2 " C5 AMTN A 165 " - " N1 AMTN A 165 " [ 1.480, 1.470,  0.010, 2.00e-02, 2.50e+03, 2.55e-01]
+   3 " N1 AMTN A 165 " - " O1 AMTN A 165 " [ 1.258, 1.268, -0.010, 2.00e-02, 2.50e+03, 2.36e-01]
+   4 " C5 BMTN A 165 " - " N1 BMTN A 165 " [ 1.480, 1.485, -0.005, 2.00e-02, 2.50e+03, 6.06e-02]
+   5 " C1 BMTN A 165 " - " N1 BMTN A 165 " [ 1.477, 1.480, -0.003, 2.00e-02, 2.50e+03, 2.45e-02]
+   6 " N1 BMTN A 165 " - " O1 BMTN A 165 " [ 1.258, 1.260, -0.002, 2.00e-02, 2.50e+03, 8.12e-03]
+---- angles ---- angles ---- angles ---- angles ---- angles ---- angles 
+   1 " C7 AMTN A 165 " - " C5 AMTN A 165 " - " N1 AMTN A 165 " [ 109.16, 115.54, -6.38, 3.00, 0.111, 4.52e+00]
+   2 " C9 AMTN A 165 " - " C1 AMTN A 165 " - " N1 AMTN A 165 " [ 109.97, 115.16, -5.19, 3.00, 0.111, 3.00e+00]
+   3 " C3 AMTN A 165 " - " C5 AMTN A 165 " - " N1 AMTN A 165 " [  99.93,  96.65,  3.28, 3.00, 0.111, 1.19e+00]
+   4 " C2 AMTN A 165 " - " C1 AMTN A 165 " - " N1 AMTN A 165 " [  99.99, 102.89, -2.90, 3.00, 0.111, 9.37e-01]
+   5 " C6 BMTN A 165 " - " C5 BMTN A 165 " - " N1 BMTN A 165 " [ 108.85, 111.32, -2.47, 3.00, 0.111, 6.78e-01]
+   6 " C1 AMTN A 165 " - " N1 AMTN A 165 " - " C5 AMTN A 165 " [ 114.61, 112.66,  1.95, 3.00, 0.111, 4.22e-01]
+   7 " C6 AMTN A 165 " - " C5 AMTN A 165 " - " N1 AMTN A 165 " [ 108.85, 110.60, -1.75, 3.00, 0.111, 3.41e-01]
+   8 " C1 AMTN A 165 " - " N1 AMTN A 165 " - " O1 AMTN A 165 " [ 122.58, 124.18, -1.60, 3.00, 0.111, 2.86e-01]
+   9 " C8 BMTN A 165 " - " C1 BMTN A 165 " - " N1 BMTN A 165 " [ 109.60, 110.96, -1.36, 3.00, 0.111, 2.04e-01]
+  10 " C5 AMTN A 165 " - " N1 AMTN A 165 " - " O1 AMTN A 165 " [ 122.20, 123.11, -0.91, 3.00, 0.111, 9.25e-02]
+  11 " C7 BMTN A 165 " - " C5 BMTN A 165 " - " N1 BMTN A 165 " [ 109.16, 109.86, -0.70, 3.00, 0.111, 5.49e-02]
+  12 " C5 BMTN A 165 " - " N1 BMTN A 165 " - " O1 BMTN A 165 " [ 122.20, 122.76, -0.56, 3.00, 0.111, 3.47e-02]
+  13 " C1 BMTN A 165 " - " N1 BMTN A 165 " - " C5 BMTN A 165 " [ 114.61, 114.14,  0.47, 3.00, 0.111, 2.46e-02]
+  14 " C8 AMTN A 165 " - " C1 AMTN A 165 " - " N1 AMTN A 165 " [ 109.60, 109.17,  0.43, 3.00, 0.111, 2.10e-02]
+  15 " C2 BMTN A 165 " - " C1 BMTN A 165 " - " N1 BMTN A 165 " [  99.99, 100.19, -0.20, 3.00, 0.111, 4.49e-03]
+  16 " C9 BMTN A 165 " - " C1 BMTN A 165 " - " N1 BMTN A 165 " [ 109.97, 109.80,  0.17, 3.00, 0.111, 3.08e-03]
+  17 " C1 BMTN A 165 " - " N1 BMTN A 165 " - " O1 BMTN A 165 " [ 122.58, 122.73, -0.15, 3.00, 0.111, 2.55e-03]
+  18 " C3 BMTN A 165 " - " C5 BMTN A 165 " - " N1 BMTN A 165 " [  99.93,  99.78,  0.15, 3.00, 0.111, 2.34e-03]
+---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals 
+   1 " C3 AMTN A 165 " - " C5 AMTN A 165 " - " N1 AMTN A 165 " - " O1 AMTN A 165 " [  180.00,  171.80,    8.20,  1,   60.00, 2.78e-04,    0.03]
+   2 " C2 AMTN A 165 " - " C1 AMTN A 165 " - " N1 AMTN A 165 " - " O1 AMTN A 165 " [ -180.00, -173.40,   -6.60,  1,   60.00, 2.78e-04,    0.02]
+   3 " C3 BMTN A 165 " - " C5 BMTN A 165 " - " N1 BMTN A 165 " - " O1 BMTN A 165 " [  180.00,  178.15,    1.85,  1,   60.00, 2.78e-04, 1.39e-03]
+   4 " C2 BMTN A 165 " - " C1 BMTN A 165 " - " N1 BMTN A 165 " - " O1 BMTN A 165 " [ -180.00, -179.37,   -0.63,  1,   60.00, 2.78e-04, 1.59e-04]
+---- chirals ---- chirals ---- chirals ---- chirals ---- chirals ---- chirals 
+  None

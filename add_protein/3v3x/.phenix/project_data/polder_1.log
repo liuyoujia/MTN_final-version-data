@@ -1,0 +1,354 @@
+Starting phenix.bat
+on Wed Mar 24 17:44:16 2021 by youjia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found phil, C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\.phenix\project_data/polder_1.eff
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding PHIL files:
+  ------------------
+    C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\.phenix\project_data/polder_1.eff
+
+Processing files from PHIL:
+-------------------------------------------------------------------------------
+
+  Found model, C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\3v3x.updated_refine_001.pdb
+  Found miller_array, C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\3v3x.updated_refine_001.mtz
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3v3x\\3v3x.updated_refine_001.mtz"
+      labels {
+        name = "F-obs,SIGF-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3v3x\\3v3x.updated_refine_001.mtz"
+    model {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3v3x\\3v3x.updated_refine_001.pdb"
+    }
+    default_model = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3v3x\\3v3x.updated_refine_001.pdb"
+    phil_files = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3v3x\\.phenix\\project_data/polder_1.eff"
+    default_phil = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3v3x\\.phenix\\project_data/polder_1.eff"
+  }
+  model_file_name = C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\3v3x.updated_refine_001.pdb
+  solvent_exclusion_mask_selection = """resname MTN"""
+  reflection_file_name = C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\3v3x.updated_refine_001.mtz
+  data_labels = F-obs,SIGF-obs
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\3v3x.updated_refine_001.pdb
+Using reflection file(s): ['C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3v3x\\3v3x.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: resname MTN
+Number of atoms selected: 221
+HETATM 3422  C1  MTN A  81       7.803  41.334  40.604  1.00108.10           C
+HETATM 3423  C2  MTN A  81       7.837  40.141  41.517  1.00 89.30           C
+HETATM 3424  C3  MTN A  81       7.386  39.021  40.939  1.00 89.13           C
+HETATM 3425  C4  MTN A  81       7.304  37.698  41.586  1.00 78.80           C
+HETATM 3426  C5  MTN A  81       6.983  39.260  39.508  1.00101.64           C
+HETATM 3427  C6  MTN A  81       7.923  38.594  38.475  1.00 93.16           C
+HETATM 3428  C7  MTN A  81       5.525  38.928  39.247  1.00105.75           C
+HETATM 3429  C8  MTN A  81       6.962  42.512  41.134  1.00 93.38           C
+HETATM 3430  C9  MTN A  81       9.183  41.814  40.185  1.00106.46           C
+HETATM 3431  N1  MTN A  81       7.145  40.732  39.424  1.00110.68           N
+HETATM 3432  O1  MTN A  81       6.907  41.385  38.372  1.00116.39           O
+HETATM 3433  S1  MTN A  81       6.135  37.544  43.030  1.00 91.94           S
+HETATM 3434  H2  MTN A  81       8.143  40.196  42.393  1.00107.09           H
+HETATM 3435  H41 MTN A  81       8.176  37.442  41.925  1.00 94.48           H
+HETATM 3436  H42 MTN A  81       7.015  37.033  40.942  1.00 94.48           H
+HETATM 3437  H61 MTN A  81       8.065  39.175  37.711  1.00111.71           H
+HETATM 3438  H62 MTN A  81       7.548  37.760  38.152  1.00111.71           H
+HETATM 3439  H63 MTN A  81       8.788  38.400  38.869  1.00111.71           H
+HETATM 3440  H71 MTN A  81       5.152  38.496  40.032  1.00126.82           H
+HETATM 3441  H72 MTN A  81       5.466  38.332  38.484  1.00126.82           H
+HETATM 3442  H73 MTN A  81       5.040  39.748  39.062  1.00126.82           H
+HETATM 3443  H81 MTN A  81       6.018  42.289  41.133  1.00111.97           H
+HETATM 3444  H82 MTN A  81       7.085  43.300  40.582  1.00111.97           H
+HETATM 3445  H83 MTN A  81       7.217  42.737  42.042  1.00111.97           H
+HETATM 3446  H91 MTN A  81       9.737  41.047  39.970  1.00127.67           H
+HETATM 3447  H92 MTN A  81       9.584  42.312  40.914  1.00127.67           H
+HETATM 3448  H93 MTN A  81       9.100  42.385  39.405  1.00127.67           H
+HETATM 3457  C1 AMTN B  81      13.125  28.213  17.547  0.58 43.20           C
+HETATM 3458  C2 AMTN B  81      14.602  28.338  17.777  0.58 48.85           C
+HETATM 3459  C3 AMTN B  81      15.324  28.091  16.677  0.58 47.82           C
+HETATM 3460  C4 AMTN B  81      16.796  28.201  16.604  0.58 39.28           C
+HETATM 3461  C5 AMTN B  81      14.456  27.724  15.496  0.58 47.14           C
+HETATM 3462  C6 AMTN B  81      14.724  26.303  14.956  0.58 38.46           C
+HETATM 3463  C7 AMTN B  81      14.534  28.740  14.394  0.58 50.32           C
+HETATM 3464  C8 AMTN B  81      12.410  29.575  17.633  0.58 52.72           C
+HETATM 3465  C9 AMTN B  81      12.431  27.179  18.407  0.58 45.33           C
+HETATM 3466  N1 AMTN B  81      13.120  27.758  16.142  0.58 56.22           N
+HETATM 3467  O1 AMTN B  81      12.066  27.380  15.567  0.58 50.75           O
+HETATM 3468  S1 AMTN B  81      17.758  26.644  16.722  0.58 36.16           S
+HETATM 3469  H2 AMTN B  81      14.958  28.564  18.606  0.58 58.55           H
+HETATM 3470  H41AMTN B  81      17.120  28.763  17.326  0.58 47.06           H
+HETATM 3471  H42AMTN B  81      17.054  28.603  15.760  0.58 47.06           H
+HETATM 3472  H61AMTN B  81      15.641  26.215  14.650  0.58 46.07           H
+HETATM 3473  H62AMTN B  81      14.575  25.636  15.645  0.58 46.07           H
+HETATM 3474  H63AMTN B  81      14.139  26.098  14.210  0.58 46.07           H
+HETATM 3475  H71AMTN B  81      13.959  28.461  13.664  0.58 60.30           H
+HETATM 3476  H72AMTN B  81      15.451  28.803  14.085  0.58 60.30           H
+HETATM 3477  H73AMTN B  81      14.241  29.600  14.734  0.58 60.30           H
+HETATM 3478  H81AMTN B  81      12.308  29.854  18.557  0.58 63.19           H
+HETATM 3479  H82AMTN B  81      11.527  29.527  17.234  0.58 63.19           H
+HETATM 3480  H83AMTN B  81      12.914  30.260  17.166  0.58 63.19           H
+HETATM 3481  H91AMTN B  81      12.689  27.307  19.334  0.58 54.32           H
+HETATM 3482  H92AMTN B  81      12.693  26.292  18.115  0.58 54.32           H
+HETATM 3483  H93AMTN B  81      11.470  27.281  18.319  0.58 54.32           H
+HETATM 3484  C1 BMTN B  81      14.420  28.629  17.416  0.42 53.22           C
+HETATM 3485  C2 BMTN B  81      15.817  29.153  17.313  0.42 56.90           C
+HETATM 3486  C3 BMTN B  81      16.389  28.863  16.145  0.42 50.61           C
+HETATM 3487  C4 BMTN B  81      17.755  29.253  15.762  0.42 39.78           C
+HETATM 3488  C5 BMTN B  81      15.456  28.079  15.248  0.42 49.17           C
+HETATM 3489  C6 BMTN B  81      15.833  26.596  15.099  0.42 45.43           C
+HETATM 3490  C7 BMTN B  81      15.247  28.767  13.919  0.42 51.07           C
+HETATM 3491  C8 BMTN B  81      13.387  29.704  17.775  0.42 57.03           C
+HETATM 3492  C9 BMTN B  81      14.358  27.435  18.353  0.42 46.60           C
+HETATM 3493  N1 BMTN B  81      14.213  28.159  16.030  0.42 51.33           N
+HETATM 3494  O1 BMTN B  81      13.214  27.458  15.717  0.42 54.49           O
+HETATM 3495  S1 BMTN B  81      18.731  29.877  17.208  0.42 48.16           S
+HETATM 3496  H2 BMTN B  81      16.224  29.628  18.001  0.42 68.20           H
+HETATM 3497  H41BMTN B  81      17.739  29.962  15.101  0.42 47.66           H
+HETATM 3498  H42BMTN B  81      18.240  28.498  15.395  0.42 47.66           H
+HETATM 3499  H61BMTN B  81      16.796  26.480  15.114  0.42 54.44           H
+HETATM 3500  H62BMTN B  81      15.457  26.068  15.820  0.42 54.44           H
+HETATM 3501  H63BMTN B  81      15.502  26.237  14.261  0.42 54.44           H
+HETATM 3502  H71BMTN B  81      14.995  28.107  13.255  0.42 61.21           H
+HETATM 3503  H72BMTN B  81      16.073  29.202  13.653  0.42 61.21           H
+HETATM 3504  H73BMTN B  81      14.543  29.428  14.011  0.42 61.21           H
+HETATM 3505  H81BMTN B  81      13.452  29.946  18.712  0.42 68.35           H
+HETATM 3506  H82BMTN B  81      12.486  29.385  17.608  0.42 68.35           H
+HETATM 3507  H83BMTN B  81      13.525  30.505  17.246  0.42 68.35           H
+HETATM 3508  H91BMTN B  81      14.383  27.747  19.271  0.42 55.84           H
+HETATM 3509  H92BMTN B  81      13.534  26.947  18.196  0.42 55.84           H
+HETATM 3510  H93BMTN B  81      15.118  26.856  18.184  0.42 55.84           H
+HETATM 3511  C3  MTN B 281      19.671  35.014  -8.027  1.00 53.90           C
+HETATM 3512  C4  MTN B 281      20.323  33.786  -8.546  1.00 38.27           C
+HETATM 3513  S1  MTN B 281      19.596  33.073 -10.123  1.00 85.60           S
+HETATM 3514  H41 MTN B 281      20.271  33.078  -7.885  1.00 45.85           H
+HETATM 3515  H42 MTN B 281      21.258  33.962  -8.739  1.00 45.85           H
+HETATM 3537  C1  MTN C  81      10.396  23.824  38.535  1.00 78.56           C
+HETATM 3538  C2  MTN C  81       9.270  24.786  38.380  1.00 81.17           C
+HETATM 3539  C3  MTN C  81       8.305  24.578  39.262  1.00 73.12           C
+HETATM 3540  C4  MTN C  81       7.095  25.381  39.280  1.00 62.66           C
+HETATM 3541  C5  MTN C  81       8.582  23.437  40.208  1.00 81.75           C
+HETATM 3542  C6  MTN C  81       8.669  23.875  41.690  1.00 73.13           C
+HETATM 3543  C7  MTN C  81       7.634  22.269  40.060  1.00 69.77           C
+HETATM 3544  C8  MTN C  81      11.730  24.490  38.887  1.00 92.06           C
+HETATM 3545  C9  MTN C  81      10.482  22.987  37.265  1.00 80.03           C
+HETATM 3546  N1  MTN C  81       9.899  23.025  39.682  1.00 78.42           N
+HETATM 3547  O1  MTN C  81      10.405  21.920  40.011  1.00 95.95           O
+HETATM 3548  S1  MTN C  81       6.085  24.900  37.795  1.00 54.83           S
+HETATM 3549  H2  MTN C  81       9.265  25.451  37.730  1.00 97.32           H
+HETATM 3550  H41 MTN C  81       7.291  26.329  39.225  1.00 75.11           H
+HETATM 3551  H42 MTN C  81       6.566  25.220  40.077  1.00 75.11           H
+HETATM 3552  H61 MTN C  81       9.232  23.269  42.198  1.00 87.68           H
+HETATM 3553  H62 MTN C  81       7.791  23.883  42.102  1.00 87.68           H
+HETATM 3554  H63 MTN C  81       9.044  24.766  41.768  1.00 87.68           H
+HETATM 3555  H71 MTN C  81       8.031  21.484  40.468  1.00 83.65           H
+HETATM 3556  H72 MTN C  81       6.796  22.482  40.501  1.00 83.65           H
+HETATM 3557  H73 MTN C  81       7.476  22.106  39.117  1.00 83.65           H
+HETATM 3558  H81 MTN C  81      12.367  23.835  39.213  1.00110.39           H
+HETATM 3559  H82 MTN C  81      11.609  25.161  39.576  1.00110.39           H
+HETATM 3560  H83 MTN C  81      12.115  24.923  38.109  1.00110.39           H
+HETATM 3561  H91 MTN C  81      11.060  22.224  37.423  1.00 95.96           H
+HETATM 3562  H92 MTN C  81      10.845  23.529  36.548  1.00 95.96           H
+HETATM 3563  H93 MTN C  81       9.594  22.679  37.025  1.00 95.96           H
+HETATM 3564  C1  MTN C 281      26.000  39.184  49.050  1.00 46.99           C
+HETATM 3565  C2  MTN C 281      25.125  39.849  50.038  1.00 52.39           C
+HETATM 3566  C3  MTN C 281      25.183  41.181  49.958  1.00 62.27           C
+HETATM 3567  C4  MTN C 281      24.383  42.035  50.843  1.00 48.89           C
+HETATM 3568  C5  MTN C 281      26.173  41.687  48.913  1.00 51.99           C
+HETATM 3569  C6  MTN C 281      25.623  42.530  47.760  1.00 56.82           C
+HETATM 3570  C7  MTN C 281      27.322  42.456  49.530  1.00 52.06           C
+HETATM 3571  C8  MTN C 281      25.157  38.328  48.076  1.00 38.06           C
+HETATM 3572  C9  MTN C 281      27.064  38.371  49.755  1.00 46.42           C
+HETATM 3573  N1  MTN C 281      26.629  40.377  48.393  1.00 51.21           N
+HETATM 3574  O1  MTN C 281      27.693  40.317  47.726  1.00 56.50           O
+HETATM 3575  S1  MTN C 281      25.301  42.194  52.439  1.00 46.93           S
+HETATM 3576  H2  MTN C 281      24.600  39.373  50.641  1.00 62.79           H
+HETATM 3577  H41 MTN C 281      23.512  41.649  51.027  1.00 58.59           H
+HETATM 3578  H42 MTN C 281      24.258  42.922  50.472  1.00 58.59           H
+HETATM 3579  H61 MTN C 281      25.323  43.396  48.077  1.00 68.10           H
+HETATM 3580  H62 MTN C 281      24.870  42.089  47.336  1.00 68.10           H
+HETATM 3581  H63 MTN C 281      26.302  42.678  47.084  1.00 68.10           H
+HETATM 3582  H71 MTN C 281      28.137  42.256  49.043  1.00 62.39           H
+HETATM 3583  H72 MTN C 281      27.133  43.406  49.479  1.00 62.39           H
+HETATM 3584  H73 MTN C 281      27.420  42.190  50.458  1.00 62.39           H
+HETATM 3585  H81 MTN C 281      24.781  37.558  48.531  1.00 45.59           H
+HETATM 3586  H82 MTN C 281      25.700  38.008  47.339  1.00 45.59           H
+HETATM 3587  H83 MTN C 281      24.424  38.847  47.707  1.00 45.59           H
+HETATM 3588  H91 MTN C 281      26.659  37.575  50.135  1.00 55.62           H
+HETATM 3589  H92 MTN C 281      27.748  38.117  49.117  1.00 55.62           H
+HETATM 3590  H93 MTN C 281      27.459  38.905  50.462  1.00 55.62           H
+HETATM 3591  C1 AMTN D  81      26.579  21.035   8.941  0.66 36.31           C
+HETATM 3592  C2 AMTN D  81      25.653  22.194   8.779  0.66 35.96           C
+HETATM 3593  C3 AMTN D  81      26.277  23.309   8.422  0.66 47.34           C
+HETATM 3594  C4 AMTN D  81      25.630  24.612   8.201  0.66 30.50           C
+HETATM 3595  C5 AMTN D  81      27.755  23.100   8.245  0.66 51.11           C
+HETATM 3596  C6 AMTN D  81      28.583  23.981   9.200  0.66 58.12           C
+HETATM 3597  C7 AMTN D  81      28.175  23.296   6.797  0.66 45.33           C
+HETATM 3598  C8 AMTN D  81      26.329  19.903   7.953  0.66 35.41           C
+HETATM 3599  C9 AMTN D  81      26.548  20.518  10.378  0.66 32.04           C
+HETATM 3600  N1 AMTN D  81      27.878  21.659   8.597  0.66 53.77           N
+HETATM 3601  O1 AMTN D  81      28.895  20.967   8.274  0.66 49.06           O
+HETATM 3602  S1 AMTN D  81      25.162  24.770   6.396  0.66 38.97           S
+HETATM 3603  H2 AMTN D  81      24.736  22.121   8.918  0.66 43.07           H
+HETATM 3604  H41AMTN D  81      26.225  25.346   8.421  0.66 36.52           H
+HETATM 3605  H42AMTN D  81      24.821  24.700   8.728  0.66 36.52           H
+HETATM 3606  H61AMTN D  81      29.519  23.729   9.180  0.66 69.67           H
+HETATM 3607  H62AMTN D  81      28.268  23.893  10.113  0.66 69.67           H
+HETATM 3608  H63AMTN D  81      28.520  24.916   8.951  0.66 69.67           H
+HETATM 3609  H71AMTN D  81      29.063  22.927   6.671  0.66 54.32           H
+HETATM 3610  H72AMTN D  81      27.544  22.840   6.219  0.66 54.32           H
+HETATM 3611  H73AMTN D  81      28.181  24.245   6.594  0.66 54.32           H
+HETATM 3612  H81AMTN D  81      26.817  20.053   7.128  0.66 42.41           H
+HETATM 3613  H82AMTN D  81      25.386  19.836   7.738  0.66 42.41           H
+HETATM 3614  H83AMTN D  81      26.616  19.054   8.323  0.66 42.41           H
+HETATM 3615  H91AMTN D  81      26.652  21.264  10.988  0.66 38.37           H
+HETATM 3616  H92AMTN D  81      25.699  20.078  10.542  0.66 38.37           H
+HETATM 3617  H93AMTN D  81      27.273  19.886  10.506  0.66 38.37           H
+HETATM 3618  C1 BMTN D  81      28.439  24.293   8.685  0.34 55.59           C
+HETATM 3619  C2 BMTN D  81      26.960  24.140   8.493  0.34 49.13           C
+HETATM 3620  C3 BMTN D  81      26.505  22.946   8.882  0.34 45.53           C
+HETATM 3621  C4 BMTN D  81      25.087  22.555   8.822  0.34 42.05           C
+HETATM 3622  C5 BMTN D  81      27.605  22.051   9.424  0.34 54.64           C
+HETATM 3623  C6 BMTN D  81      27.871  20.790   8.566  0.34 52.90           C
+HETATM 3624  C7 BMTN D  81      27.377  21.629  10.865  0.34 48.72           C
+HETATM 3625  C8 BMTN D  81      28.793  25.480   9.592  0.34 61.18           C
+HETATM 3626  C9 BMTN D  81      29.197  24.450   7.376  0.34 50.09           C
+HETATM 3627  N1 BMTN D  81      28.749  22.999   9.352  0.34 58.51           N
+HETATM 3628  O1 BMTN D  81      29.800  22.819  10.027  0.34 57.62           O
+HETATM 3629  S1 BMTN D  81      24.418  22.104   7.155  0.34 43.06           S
+HETATM 3630  H2 BMTN D  81      26.432  24.818   8.138  0.34 58.88           H
+HETATM 3631  H41BMTN D  81      24.530  23.282   9.140  0.34 50.38           H
+HETATM 3632  H42BMTN D  81      24.935  21.779   9.384  0.34 50.38           H
+HETATM 3633  H61BMTN D  81      28.149  21.033   7.669  0.34 63.41           H
+HETATM 3634  H62BMTN D  81      27.072  20.245   8.494  0.34 63.41           H
+HETATM 3635  H63BMTN D  81      28.571  20.245   8.959  0.34 63.41           H
+HETATM 3636  H71BMTN D  81      27.812  22.265  11.455  0.34 58.39           H
+HETATM 3637  H72BMTN D  81      26.424  21.613  11.044  0.34 58.39           H
+HETATM 3638  H73BMTN D  81      27.752  20.745  11.001  0.34 58.39           H
+HETATM 3639  H81BMTN D  81      28.005  25.810  10.051  0.34 73.34           H
+HETATM 3640  H82BMTN D  81      29.167  26.210   9.074  0.34 73.34           H
+HETATM 3641  H83BMTN D  81      29.445  25.220  10.262  0.34 73.34           H
+HETATM 3642  H91BMTN D  81      28.975  23.713   6.787  0.34 60.03           H
+HETATM 3643  H92BMTN D  81      28.945  25.289   6.959  0.34 60.03           H
+HETATM 3644  H93BMTN D  81      30.151  24.448   7.556  0.34 60.03           H
+HETATM 3645  C1  MTN D 281      30.636  42.367  27.598  1.00 66.80           C
+HETATM 3646  C2  MTN D 281      30.228  41.151  28.396  1.00 61.19           C
+HETATM 3647  C3  MTN D 281      31.052  40.105  28.201  1.00 65.58           C
+HETATM 3648  C4  MTN D 281      30.919  38.778  28.846  1.00 58.12           C
+HETATM 3649  C5  MTN D 281      32.159  40.441  27.230  1.00 56.52           C
+HETATM 3650  C6  MTN D 281      32.067  39.594  25.937  1.00 57.33           C
+HETATM 3651  C7  MTN D 281      33.522  40.382  27.876  1.00 62.77           C
+HETATM 3652  C8  MTN D 281      30.984  43.577  28.481  1.00 69.79           C
+HETATM 3653  C9  MTN D 281      29.595  42.715  26.548  1.00 72.31           C
+HETATM 3654  N1  MTN D 281      31.868  41.860  26.935  1.00 66.78           N
+HETATM 3655  O1  MTN D 281      32.753  42.615  26.448  1.00 64.46           O
+HETATM 3656  S1  MTN D 281      31.201  38.847  30.686  1.00 56.01           S
+HETATM 3657  H2  MTN D 281      29.485  41.147  28.955  1.00 73.35           H
+HETATM 3658  H41 MTN D 281      31.567  38.154  28.484  1.00 69.67           H
+HETATM 3659  H42 MTN D 281      30.030  38.417  28.710  1.00 69.67           H
+HETATM 3660  H61 MTN D 281      31.293  39.848  25.411  1.00 68.72           H
+HETATM 3661  H62 MTN D 281      31.989  38.650  26.146  1.00 68.72           H
+HETATM 3662  H63 MTN D 281      32.856  39.715  25.386  1.00 68.72           H
+HETATM 3663  H71 MTN D 281      33.666  41.192  28.389  1.00 75.24           H
+HETATM 3664  H72 MTN D 281      34.198  40.305  27.185  1.00 75.24           H
+HETATM 3665  H73 MTN D 281      33.562  39.610  28.463  1.00 75.24           H
+HETATM 3666  H81 MTN D 281      31.542  43.309  29.228  1.00 83.67           H
+HETATM 3667  H82 MTN D 281      30.180  43.987  28.837  1.00 83.67           H
+HETATM 3668  H83 MTN D 281      31.464  44.249  27.972  1.00 83.67           H
+HETATM 3669  H91 MTN D 281      28.804  43.065  26.987  1.00 86.70           H
+HETATM 3670  H92 MTN D 281      29.958  43.384  25.947  1.00 86.70           H
+HETATM 3671  H93 MTN D 281      29.365  41.916  26.049  1.00 86.70           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['F-obs', 'SIGF-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (105.248, 35.747, 86.989, 90, 126.37, 90)
+Space group: C 1 2 1 (No. 5)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.2087 R_free = 0.2686
+*******************************************************************************
+R factor for polder map
+R_work = 0.2374 R_free = 0.2939
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.2239 R_free = 0.2792
+*******************************************************************************
+File 3v3x_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.4317
+CC(1,3): 0.8154
+CC(2,3): 0.4763
+Peak CC:
+CC(1,2): 0.4951
+CC(1,3): 0.7617
+CC(2,3): 0.4976
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.6545 0.6781 0.7910
+0.20 0.6425 0.5997 0.7274
+0.30 0.6475 0.5238 0.6679
+0.40 0.6320 0.4667 0.6335
+0.50 0.6292 0.4188 0.6389
+0.60 0.6468 0.3918 0.6394
+0.70 0.7014 0.3841 0.6392
+0.80 0.7559 0.3628 0.6679
+0.90 0.7971 0.3296 0.7347
+0.91 0.8044 0.3142 0.7467
+0.92 0.8168 0.3058 0.7634
+0.93 0.8220 0.3068 0.7768
+0.94 0.8513 0.2991 0.8075
+0.95 0.8674 0.3103 0.8311
+0.96 0.9014 0.3020 0.8771
+0.97 0.9212 0.3045 0.8996
+0.98 0.9549 0.3259 0.9166
+0.99 0.9790 0.3052 0.9483
+*******************************************************************************
+The polder map is likely to show the omitted atoms.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 26.69 seconds
+wall clock time: 26.70 seconds

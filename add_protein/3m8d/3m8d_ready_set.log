@@ -1,0 +1,51 @@
+
+  INPUT
+  
+    Reading model from 3m8d.pdb
+    Reading restraints from cnc.cif
+    Writing effective parameters to 3m8d.eff
+
+  Preparation for phenix.refine
+
+    Add hydrogens
+      - to protein model using phenix.reduce
+      - to ligands using eLBOW, phenix.elbow
+
+  Attempting to download Chemical Components file for MTN
+  Running eLBOW on /home/liuyoujia/phenix-1.19rc3-4024/modules/chem_data/chemical_components/m/data_MTN.cif
+
+MoleculeClass :  C:10  N: 1  O: 3  S: 2 (CHEMICAL COMPONENTS format)
+	34 atoms
+	34 bonds
+	64 angles
+	85 dihedrals
+	1 rings (groups, rings, atoms) 1 5
+	0 chirals
+
+  More than 20 percent of the atoms are missing for MTN
+  as compared to the Chemical Components
+
+  Build ligand and use user provided restraints : MTN
+
+  Build ligand and use user provided restraints : CNC
+	Difficulties in the ring structures may lead to problems later
+
+  Build ligand and use monomer library to name atoms : C8E
+  Using monomer library entry C8E as template
+
+  User defined restraints for MTN added to output restraints
+
+  User defined restraints for CNC added to output restraints
+
+  Reduce warnings
+WARNING: atom CO from CNC will be treated as cobolt
+
+
+  OUTPUT
+  
+    Writing model to 3m8d.updated.pdb
+    Writing restraints to 3m8d.ligands.cif
+      MTN
+      CNC
+Optimize H/D positions using phenix.geometry_minimization
+phenix.geometry_minimization "/home/liuyoujia/Desktop/MTN_final_version/add_protein/3m8d/3m8d.updated.pdb" "/home/liuyoujia/Desktop/MTN_final_version/add_protein/3m8d/3m8d.ligands.cif" use_neutron_distances=False output_file_name_prefix=3m8d.updated selection="element H or element D" write_geo_file=False fix_rotamer_outliers=False silent=True correct_hydrogens=True
