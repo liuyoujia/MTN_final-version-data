@@ -1,7 +1,7 @@
 project {
   project_id = "1zyt"
-  directory = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\1zyt"
-  last_modified = 1616505577
+  directory = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\1zyt"
+  last_modified = 1617109421
   job_count = 1
   best_r_free = None
   default_file {
@@ -16,5 +16,5 @@ project {
   use_phaser_fast_mode = False
   citation = None
   group_id = None
-  cached_output_dir = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\1zyt"
+  cached_output_dir = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\1zyt"
 }

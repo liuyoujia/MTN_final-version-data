@@ -23,9 +23,9 @@ polder {
   compute_box = False
   altloc_scale = False
 }
-model_file_name = C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\3v3x.updated_refine_001.pdb
-solvent_exclusion_mask_selection = """resname MTN"""
-reflection_file_name = C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\3v3x.updated_refine_001.mtz
+model_file_name = C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3v3x\3v3x.updated_refine_001.pdb
+solvent_exclusion_mask_selection = """resname MTN and chain B and resseq 81 and altloc A"""
+reflection_file_name = C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3v3x\3v3x.updated_refine_001.mtz
 data_labels = F-obs,SIGF-obs
 r_free_flags_labels = R-free-flags
 high_resolution = None

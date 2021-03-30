@@ -1,0 +1,172 @@
+Starting phenix.bat
+on Tue Mar 30 13:45:21 2021 by youjia
+===============================================================================
+
+Processing files:
+-------------------------------------------------------------------------------
+
+  Found phil, C:\Users\youjia\Desktop\MTN_final-version-data\2xiu\.phenix\project_data/polder_1.eff
+
+Processing PHIL parameters:
+-------------------------------------------------------------------------------
+
+  Adding PHIL files:
+  ------------------
+    C:\Users\youjia\Desktop\MTN_final-version-data\2xiu\.phenix\project_data/polder_1.eff
+
+Processing files from PHIL:
+-------------------------------------------------------------------------------
+
+  Found model, C:\Users\youjia\Desktop\MTN_final-version-data\2xiu\2xiu.updated_refine_001.pdb
+  Found miller_array, C:\Users\youjia\Desktop\MTN_final-version-data\2xiu\2xiu.updated_refine_001.mtz
+
+Final processed PHIL parameters:
+-------------------------------------------------------------------------------
+  data_manager {
+    miller_array {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\2xiu\\2xiu.updated_refine_001.mtz"
+      labels {
+        name = "I-obs,SIGI-obs"
+      }
+      labels {
+        name = "R-free-flags"
+      }
+      labels {
+        name = "F-obs-filtered,SIGF-obs-filtered"
+      }
+      labels {
+        name = "F-model,PHIF-model"
+      }
+      labels {
+        name = "2FOFCWT,PH2FOFCWT"
+      }
+      labels {
+        name = "2FOFCWT_no_fill,PH2FOFCWT_no_fill"
+      }
+      labels {
+        name = "FOFCWT,PHFOFCWT"
+      }
+    }
+    default_miller_array = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\2xiu\\2xiu.updated_refine_001.mtz"
+    model {
+      file = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\2xiu\\2xiu.updated_refine_001.pdb"
+    }
+    default_model = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\2xiu\\2xiu.updated_refine_001.pdb"
+    phil_files = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\2xiu\\.phenix\\project_data/polder_1.eff"
+    default_phil = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\2xiu\\.phenix\\project_data/polder_1.eff"
+  }
+  model_file_name = C:\Users\youjia\Desktop\MTN_final-version-data\2xiu\2xiu.updated_refine_001.pdb
+  solvent_exclusion_mask_selection = """chain A and resname MTN and resseq 1055"""
+  reflection_file_name = C:\Users\youjia\Desktop\MTN_final-version-data\2xiu\2xiu.updated_refine_001.mtz
+  data_labels = I-obs,SIGI-obs
+  r_free_flags_labels = R-free-flags
+
+
+Starting job
+===============================================================================
+Validating inputs:
+
+Using model file: C:\Users\youjia\Desktop\MTN_final-version-data\2xiu\2xiu.updated_refine_001.pdb
+Using reflection file(s): ['C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\2xiu\\2xiu.updated_refine_001.mtz']
+*******************************************************************************
+Selecting atoms...
+
+Selection string: chain A and resname MTN and resseq 1055
+Number of atoms selected: 27
+HETATM 2375  C1  MTN A1055      33.564  17.308  15.034  0.80 38.47           C
+ANISOU 2375  C1  MTN A1055     3420   4649   6550   -352    842  -1805       C
+HETATM 2376  C2  MTN A1055      32.763  16.112  15.429  0.80 37.66           C
+ANISOU 2376  C2  MTN A1055     3418   4398   6495   -251    707  -1574       C
+HETATM 2377  C3  MTN A1055      31.550  16.110  14.875  0.80 36.73           C
+ANISOU 2377  C3  MTN A1055     3283   4202   6471    -78    492  -1347       C
+HETATM 2378  C4  MTN A1055      30.534  15.070  15.061  0.80 33.87           C
+ANISOU 2378  C4  MTN A1055     3096   3800   5974    130    -15  -1000       C
+HETATM 2379  C5  MTN A1055      31.292  17.313  14.024  0.80 39.05           C
+ANISOU 2379  C5  MTN A1055     3385   4476   6975   -199    737  -1446       C
+HETATM 2380  C6  MTN A1055      31.143  17.000  12.526  0.80 39.16           C
+ANISOU 2380  C6  MTN A1055     3303   4582   6994   -337    663  -1468       C
+HETATM 2381  C7  MTN A1055      30.108  18.101  14.534  0.80 39.96           C
+ANISOU 2381  C7  MTN A1055     3568   4577   7040   -139    906  -1446       C
+HETATM 2382  C8  MTN A1055      34.732  16.959  14.103  0.80 38.64           C
+ANISOU 2382  C8  MTN A1055     3612   4823   6245   -502    845  -1966       C
+HETATM 2383  C9  MTN A1055      34.047  18.130  16.218  0.80 38.14           C
+ANISOU 2383  C9  MTN A1055     3373   4839   6279   -309    907  -1797       C
+HETATM 2384  N1  MTN A1055      32.547  18.063  14.268  0.80 40.73           N
+ANISOU 2384  N1  MTN A1055     3493   4578   7406   -306    732  -1616       N
+HETATM 2385  O1  MTN A1055      32.797  19.156  13.704  0.80 43.68           O
+ANISOU 2385  O1  MTN A1055     3534   4720   8340   -345    758  -1393       O
+HETATM 2386  S1  MTN A1055      31.258  13.438  15.591  0.80 30.90           S
+ANISOU 2386  S1  MTN A1055     3131   3341   5269    221   -378   -931       S
+HETATM 2387  H2  MTN A1055      33.091  15.454  15.998  0.80 45.21           H
+HETATM 2388  H41 MTN A1055      30.053  14.909  14.234  0.80 40.66           H
+HETATM 2389  H42 MTN A1055      29.897  15.330  15.744  0.80 40.66           H
+HETATM 2390  H61 MTN A1055      31.686  16.236  12.275  0.80 47.01           H
+HETATM 2391  H62 MTN A1055      31.422  17.755  11.984  0.80 47.01           H
+HETATM 2392  H63 MTN A1055      30.221  16.797  12.303  0.80 47.01           H
+HETATM 2393  H71 MTN A1055      30.128  18.114  15.503  0.80 47.97           H
+HETATM 2394  H72 MTN A1055      30.159  19.007  14.192  0.80 47.97           H
+HETATM 2395  H73 MTN A1055      29.290  17.679  14.228  0.80 47.97           H
+HETATM 2396  H81 MTN A1055      35.068  17.754  13.659  0.80 46.38           H
+HETATM 2397  H82 MTN A1055      34.453  16.329  13.421  0.80 46.38           H
+HETATM 2398  H83 MTN A1055      35.463  16.561  14.601  0.80 46.38           H
+HETATM 2399  H91 MTN A1055      33.302  18.299  16.815  0.80 45.78           H
+HETATM 2400  H92 MTN A1055      34.737  17.637  16.688  0.80 45.78           H
+HETATM 2401  H93 MTN A1055      34.407  18.971  15.897  0.80 45.78           H
+
+*******************************************************************************
+Input data...
+  Reflection data: ['I-obs', 'SIGI-obs']
+  Free-R flags: ['R-free-flags']
+
+Working crystal symmetry after inspecting all inputs:
+Unit cell: (63.353, 63.353, 40.972, 90, 90, 90)
+Space group: P 41 (No. 76)
+*******************************************************************************
+R factors for unmodified input model and data:
+R_work = 0.1309 R_free = 0.1652
+*******************************************************************************
+R factor for polder map
+R_work = 0.1345 R_free = 0.1694
+*******************************************************************************
+R factor for OMIT map (ligand is excluded for mask calculation):
+R_work = 0.1320 R_free = 0.1642
+*******************************************************************************
+File 2xiu_polder_map_coeffs.mtz was written.
+Map 1: calculated Fobs with ligand
+Map 2: calculated Fobs without ligand
+Map 3: real Fobs data
+CC(1,2): 0.0893
+CC(1,3): 0.8273
+CC(2,3): 0.0482
+Peak CC:
+CC(1,2): 0.2728
+CC(1,3): 0.6907
+CC(2,3): 0.0654
+q    D(1,2) D(1,3) D(2,3)
+0.10 0.7083 0.7697 0.7807
+0.20 0.6050 0.6275 0.7758
+0.30 0.6594 0.5722 0.8541
+0.40 0.7274 0.5542 0.9332
+0.50 0.8047 0.5211 0.9868
+0.60 0.8343 0.4698 1.0101
+0.70 0.9127 0.3908 1.0355
+0.80 1.0294 0.2936 1.0845
+0.90 1.0320 0.2506 1.0865
+0.91 1.0271 0.2526 1.0810
+0.92 1.0222 0.2499 1.0729
+0.93 1.0297 0.2462 1.0679
+0.94 1.0255 0.2324 1.0575
+0.95 1.0346 0.2302 1.0477
+0.96 1.0306 0.2653 1.0371
+0.97 1.0248 0.3160 1.0290
+0.98 1.0143 0.3677 1.0143
+0.99 1.0041 0.4267 1.0041
+*******************************************************************************
+The polder map is likely to show the omitted atoms.
+*******************************************************************************
+Finished
+
+===============================================================================
+Job complete
+usr+sys time: 36.38 seconds
+wall clock time: 36.39 seconds

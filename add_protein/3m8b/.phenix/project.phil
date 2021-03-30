@@ -1,8 +1,8 @@
 project {
   project_id = "3m8b"
-  directory = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b"
-  last_modified = 1616577560
-  job_count = 2
+  directory = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b"
+  last_modified = 1617103850
+  job_count = 1
   best_r_free = None
   default_file {
     file_name = None
@@ -16,5 +16,5 @@ project {
   use_phaser_fast_mode = False
   citation = None
   group_id = None
-  cached_output_dir = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b"
+  cached_output_dir = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b"
 }

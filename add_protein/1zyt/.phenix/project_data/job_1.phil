@@ -1,4 +1,4 @@
-LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\1zyt"
+LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\1zyt"
 job {
   job_id = 1
   app_id = Polder

@@ -1,14 +1,30 @@
-LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\5bmg"
+LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\5bmg"
 job_summary {
-  job_id = None
-  app_id = None
-  program_name = None
-  program_args = None
-  config_file = None
-  title = None
-  time_started = None
+  job_id = 1
+  app_id = Polder
+  program_name = phenix.polder
+  program_args = C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\5bmg\.phenix\project_data/polder_1.eff
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_1.eff"
+  title = """[ phenix.polder ]"""
+  time_started = 1617108593.6
   time_finished = None
-  result_directory = None
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_1"
+  status = *started failed aborted complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}
+job_summary {
+  job_id = 2
+  app_id = Polder
+  program_name = phenix.polder
+  program_args = C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\5bmg\.phenix\project_data/polder_2.eff
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_2.eff"
+  title = """[ phenix.polder ]"""
+  time_started = 1617108600.3
+  time_finished = None
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_2"
   status = *started failed aborted complete deleted
   user_flagged = False
   r_free = None

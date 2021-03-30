@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+angles               : True
+bonds                : True
+chirals              : True
+delete_cache         : True
+dihedrals            : True
+exclude_hydrogens    : False
+exclude_non_protein  : False
+exclude_water        : True
+filename             : 3ifx.updated_refine_001.pdb.geo
+ignore_cache         : False
+nonbonds             : False
+only_hydrogens       : False
+only_water           : False
+parallelitys         : False
+planes               : False
+quiet                : False
+use_cache            : True
+--------------------------------------------------------------------------------
+processed bond : 0.5
+processed angle : 0.7
+processed dihedral : 0.8
+LOADED ['chirality', 'angle', 'dihedral', 'bond']
+Time to parse 0.82
+
+RMS results for model
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.005( 5679)   0.005( 5491)   0.009(  188)   0.225( 5679)   0.219( 5491)   0.361(  188)
+  angle      0.968(10282)   0.943( 9926)   1.499(  356)   0.418(10282)   0.413( 9926)   0.542(  356)
+  dihedral  12.514( 2214)  12.211( 2110)  17.566(  104)   0.855( 2214)   0.840( 2110)   1.115(  104)
+
+Selecting bonds        Time to select bonds        : 0.04s
+Selecting angles       Time to select angles       : 0.14s
+Selecting dihedrals    Time to select dihedrals    : 0.04s
+
+RMS results for selection
+
+RMS(D/Z)
+             d-all          d-none         d-alt          z-all          z-none         z-alt          
+  bond       0.004(    6)   0.004(    6)   0.000(    0)   0.207(    6)   0.207(    6)   0.000(    0)
+  angle      1.071(   18)   1.071(   18)   0.000(    0)   0.357(   18)   0.357(   18)   0.000(    0)
+  dihedral   5.891(    4)   5.891(    4)   0.000(    0)   0.098(    4)   0.098(    4)   0.000(    0)
+
+----- bonds ----- bonds ----- bonds ----- bonds ----- bonds ----- bonds 
+   1 " C5  MTN B 248 " - " N1  MTN B 248 " [ 1.480, 1.474,  0.006, 2.00e-02, 2.50e+03, 9.90e-02]
+   2 " C1  MTN D 248 " - " N1  MTN D 248 " [ 1.477, 1.471,  0.006, 2.00e-02, 2.50e+03, 8.56e-02]
+   3 " C1  MTN B 248 " - " N1  MTN B 248 " [ 1.477, 1.472,  0.005, 2.00e-02, 2.50e+03, 5.10e-02]
+   4 " C5  MTN D 248 " - " N1  MTN D 248 " [ 1.480, 1.478,  0.002, 2.00e-02, 2.50e+03, 1.12e-02]
+   5 " N1  MTN D 248 " - " O1  MTN D 248 " [ 1.258, 1.257,  0.001, 2.00e-02, 2.50e+03, 1.21e-03]
+   6 " N1  MTN B 248 " - " O1  MTN B 248 " [ 1.258, 1.259, -0.001, 2.00e-02, 2.50e+03, 1.14e-03]
+---- angles ---- angles ---- angles ---- angles ---- angles ---- angles 
+   1 " C3  MTN B 248 " - " C5  MTN B 248 " - " N1  MTN B 248 " [  99.93, 102.31, -2.38, 3.00, 0.111, 6.32e-01]
+   2 " C7  MTN B 248 " - " C5  MTN B 248 " - " N1  MTN B 248 " [ 109.16, 106.91,  2.25, 3.00, 0.111, 5.65e-01]
+   3 " C1  MTN B 248 " - " N1  MTN B 248 " - " C5  MTN B 248 " [ 114.61, 113.13,  1.48, 3.00, 0.111, 2.42e-01]
+   4 " C8  MTN B 248 " - " C1  MTN B 248 " - " N1  MTN B 248 " [ 109.60, 111.07, -1.47, 3.00, 0.111, 2.41e-01]
+   5 " C6  MTN B 248 " - " C5  MTN B 248 " - " N1  MTN B 248 " [ 108.85, 107.65,  1.20, 3.00, 0.111, 1.59e-01]
+   6 " C1  MTN B 248 " - " N1  MTN B 248 " - " O1  MTN B 248 " [ 122.58, 123.73, -1.15, 3.00, 0.111, 1.46e-01]
+   7 " C6  MTN D 248 " - " C5  MTN D 248 " - " N1  MTN D 248 " [ 108.85, 107.87,  0.98, 3.00, 0.111, 1.07e-01]
+   8 " C5  MTN D 248 " - " N1  MTN D 248 " - " O1  MTN D 248 " [ 122.20, 122.88, -0.68, 3.00, 0.111, 5.18e-02]
+   9 " C9  MTN D 248 " - " C1  MTN D 248 " - " N1  MTN D 248 " [ 109.97, 110.57, -0.60, 3.00, 0.111, 3.93e-02]
+  10 " C2  MTN D 248 " - " C1  MTN D 248 " - " N1  MTN D 248 " [  99.99, 100.51, -0.52, 3.00, 0.111, 3.00e-02]
+  11 " C3  MTN D 248 " - " C5  MTN D 248 " - " N1  MTN D 248 " [  99.93, 100.40, -0.47, 3.00, 0.111, 2.48e-02]
+  12 " C5  MTN B 248 " - " N1  MTN B 248 " - " O1  MTN B 248 " [ 122.20, 122.54, -0.34, 3.00, 0.111, 1.31e-02]
+  13 " C9  MTN B 248 " - " C1  MTN B 248 " - " N1  MTN B 248 " [ 109.97, 109.63,  0.34, 3.00, 0.111, 1.27e-02]
+  14 " C8  MTN D 248 " - " C1  MTN D 248 " - " N1  MTN D 248 " [ 109.60, 109.28,  0.32, 3.00, 0.111, 1.12e-02]
+  15 " C7  MTN D 248 " - " C5  MTN D 248 " - " N1  MTN D 248 " [ 109.16, 109.47, -0.31, 3.00, 0.111, 1.10e-02]
+  16 " C1  MTN D 248 " - " N1  MTN D 248 " - " C5  MTN D 248 " [ 114.61, 114.40,  0.21, 3.00, 0.111, 5.08e-03]
+  17 " C2  MTN B 248 " - " C1  MTN B 248 " - " N1  MTN B 248 " [  99.99, 100.20, -0.21, 3.00, 0.111, 5.01e-03]
+  18 " C1  MTN D 248 " - " N1  MTN D 248 " - " O1  MTN D 248 " [ 122.58, 122.72, -0.14, 3.00, 0.111, 2.17e-03]
+---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals ---- dihedrals 
+   1 " C2  MTN D 248 " - " C1  MTN D 248 " - " N1  MTN D 248 " - " O1  MTN D 248 " [ -180.00, -173.96,   -6.04,  1,   60.00, 2.78e-04,    0.01]
+   2 " C2  MTN B 248 " - " C1  MTN B 248 " - " N1  MTN B 248 " - " O1  MTN B 248 " [ -180.00, -174.00,   -6.00,  1,   60.00, 2.78e-04,    0.01]
+   3 " C3  MTN B 248 " - " C5  MTN B 248 " - " N1  MTN B 248 " - " O1  MTN B 248 " [  180.00,  174.05,    5.95,  1,   60.00, 2.78e-04,    0.01]
+   4 " C3  MTN D 248 " - " C5  MTN D 248 " - " N1  MTN D 248 " - " O1  MTN D 248 " [  180.00,  174.44,    5.56,  1,   60.00, 2.78e-04,    0.01]
+---- chirals ---- chirals ---- chirals ---- chirals ---- chirals ---- chirals 
+  None

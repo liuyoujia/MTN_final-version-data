@@ -1,14 +1,46 @@
-LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x"
+LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3v3x"
 job_summary {
   job_id = 1
+  app_id = "Polder"
+  program_name = "phenix.polder"
+  program_args = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3v3x\\.phenix\\project_data/polder_1.eff"
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_1.eff"
+  title = "[ phenix.polder ]"
+  time_started = 1617107834
+  time_finished = 1617107861
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_1"
+  status = started failed aborted *complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}
+job_summary {
+  job_id = 2
+  app_id = "Polder"
+  program_name = "phenix.polder"
+  program_args = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3v3x\\.phenix\\project_data/polder_2.eff"
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_2.eff"
+  title = "[ phenix.polder ]"
+  time_started = 1617107918
+  time_finished = 1617107945
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_2"
+  status = started failed aborted *complete deleted
+  user_flagged = False
+  r_free = None
+  process_type = 0
+  applet = False
+}
+job_summary {
+  job_id = 3
   app_id = Polder
   program_name = phenix.polder
-  program_args = C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3v3x\.phenix\project_data/polder_1.eff
-  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_1.eff"
+  program_args = C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3v3x\.phenix\project_data/polder_3.eff
+  config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_3.eff"
   title = """[ phenix.polder ]"""
-  time_started = 1616579055.1
+  time_started = 1617108062.4
   time_finished = None
-  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_1"
+  result_directory = "$(LIBTBX_BASE_DIR)\\Polder_3"
   status = *started failed aborted complete deleted
   user_flagged = False
   r_free = None

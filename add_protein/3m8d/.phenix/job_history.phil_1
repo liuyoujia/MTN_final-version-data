@@ -1,12 +1,12 @@
-LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8d"
+LIBTBX_BASE_DIR = "C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8d"
 job_summary {
   job_id = 1
   app_id = Polder
   program_name = phenix.polder
-  program_args = C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8d\.phenix\project_data/polder_1.eff
+  program_args = C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8d\.phenix\project_data/polder_1.eff
   config_file = "$(LIBTBX_BASE_DIR)\\.phenix\\project_data/polder_1.eff"
   title = """[ phenix.polder ]"""
-  time_started = 1616577920.0
+  time_started = 1617106251.3
   time_finished = None
   result_directory = "$(LIBTBX_BASE_DIR)\\Polder_1"
   status = *started failed aborted complete deleted

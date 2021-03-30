@@ -1,30 +1,30 @@
 Starting phenix.bat
-on Wed Mar 24 17:18:30 2021 by youjia
+on Tue Mar 30 19:30:03 2021 by youjia
 ===============================================================================
 
 Processing files:
 -------------------------------------------------------------------------------
 
-  Found phil, C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8b\.phenix\project_data/polder_1.eff
+  Found phil, C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8b\.phenix\project_data/polder_1.eff
 
 Processing PHIL parameters:
 -------------------------------------------------------------------------------
 
   Adding PHIL files:
   ------------------
-    C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8b\.phenix\project_data/polder_1.eff
+    C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8b\.phenix\project_data/polder_1.eff
 
 Processing files from PHIL:
 -------------------------------------------------------------------------------
 
-  Found model, C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8b\3m8b.updated_refine_001.pdb
-  Found miller_array, C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8b\3m8b.updated_refine_001.mtz
+  Found model, C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8b\3m8b.updated_refine_001.pdb
+  Found miller_array, C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8b\3m8b.updated_refine_001.mtz
 
 Final processed PHIL parameters:
 -------------------------------------------------------------------------------
   data_manager {
     miller_array {
-      file = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b\\3m8b.updated_refine_001.mtz"
+      file = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b\\3m8b.updated_refine_001.mtz"
       labels {
         name = "F-obs,SIGF-obs"
       }
@@ -47,17 +47,17 @@ Final processed PHIL parameters:
         name = "FOFCWT,PHFOFCWT"
       }
     }
-    default_miller_array = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b\\3m8b.updated_refine_001.mtz"
+    default_miller_array = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b\\3m8b.updated_refine_001.mtz"
     model {
-      file = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b\\3m8b.updated_refine_001.pdb"
+      file = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b\\3m8b.updated_refine_001.pdb"
     }
-    default_model = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b\\3m8b.updated_refine_001.pdb"
-    phil_files = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b\\.phenix\\project_data/polder_1.eff"
-    default_phil = "C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b\\.phenix\\project_data/polder_1.eff"
+    default_model = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b\\3m8b.updated_refine_001.pdb"
+    phil_files = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b\\.phenix\\project_data/polder_1.eff"
+    default_phil = "C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b\\.phenix\\project_data/polder_1.eff"
   }
-  model_file_name = C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8b\3m8b.updated_refine_001.pdb
-  solvent_exclusion_mask_selection = """chain A and resname MTN"""
-  reflection_file_name = C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8b\3m8b.updated_refine_001.mtz
+  model_file_name = C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8b\3m8b.updated_refine_001.pdb
+  solvent_exclusion_mask_selection = """resname MTN and chain A and resseq 608"""
+  reflection_file_name = C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8b\3m8b.updated_refine_001.mtz
   data_labels = F-obs,SIGF-obs
   r_free_flags_labels = R-free-flags
 
@@ -66,12 +66,12 @@ Starting job
 ===============================================================================
 Validating inputs:
 
-Using model file: C:\Users\youjia\Desktop\MTN_final_version_data\add_protein\3m8b\3m8b.updated_refine_001.pdb
-Using reflection file(s): ['C:\\Users\\youjia\\Desktop\\MTN_final_version_data\\add_protein\\3m8b\\3m8b.updated_refine_001.mtz']
+Using model file: C:\Users\youjia\Desktop\MTN_final-version-data\add_protein\3m8b\3m8b.updated_refine_001.pdb
+Using reflection file(s): ['C:\\Users\\youjia\\Desktop\\MTN_final-version-data\\add_protein\\3m8b\\3m8b.updated_refine_001.mtz']
 *******************************************************************************
 Selecting atoms...
 
-Selection string: chain A and resname MTN
+Selection string: resname MTN and chain A and resseq 608
 Number of atoms selected: 27
 HETATM 8789  C1  MTN A 608     -34.612 -18.569   8.837  0.78 76.72           C
 HETATM 8790  C2  MTN A 608     -35.467 -17.338   8.647  0.78 65.13           C
@@ -157,5 +157,5 @@ Finished
 
 ===============================================================================
 Job complete
-usr+sys time: 50.09 seconds
-wall clock time: 50.19 seconds
+usr+sys time: 47.80 seconds
+wall clock time: 47.90 seconds
